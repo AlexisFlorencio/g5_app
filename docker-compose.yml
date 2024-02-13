@@ -11,7 +11,7 @@ services:
       - app
 
   app:
-    image: alexisf76/vps:1.0
+    build: .
     volumes:
       - ./app:/var/www/html
 
